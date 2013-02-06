@@ -1,0 +1,26 @@
+{
+    "name": "almateos/codeception-doctrine-odm-mongodb-module",
+    "description": "Doctrine ODM - MongoDB module for Codeception testing framework",
+    "keywords":["Codeception","MongoDB","Doctrine","ODM"],
+    "homepage":"https://github.com/almateos/codeception-doctrine-odm-mongodb-module",
+    "type": "Codeception module",
+    "license":"MIT",
+    "authors": [
+        {
+            "name":"Michael Bodnarchuk",
+            "email":"davert@mail.ua",
+            "homepage":"http://codegyre.com"
+        },
+        {
+            "name":"Frederik Eychenié",
+            "email":"feychenie@gmail.com",
+            "homepage":"https://plus.google.com/u/0/113117529299153888145"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Codeception\\Module\\DoctrineODMMongoDB":"src"
+        }
+    }
+
+}
